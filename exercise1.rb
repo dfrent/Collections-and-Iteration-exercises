@@ -1,0 +1,5 @@
+fav_colours = ["red", "blue","purple", "orange", "black"]
+fam_ages = [26, 33, 29, 25, 20]
+coin_flips = ["tails", "tails", "heads", "tails", "heads"]
+artists = ["mackenta", "gucci", "enya"]
+fav_colours = [:red, :blue, :purple, :orange, :black]
