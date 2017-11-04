@@ -65,9 +65,54 @@ fam_friends = {
 # 	end
 # end
 
-movies.each do |movie, year|
-	puts "#{movie} came out #{year}"
-end
+# movies.each do |movie, year|
+# 	puts "#{movie} came out #{year}"
+# end
 
 
-puts fam_ages.sort!.reverse
+# puts fam_ages.sort!.reverse
+
+
+# movies["beauty and the beast"] = [1991, 2017]
+# puts movies
+
+# exercise4
+# fam_ages.each do |i|
+# 	if i <= 30 
+# 		puts i
+# 	end 
+# end
+
+
+
+# fam_ages.each do |i|
+#     if i >= 33
+#      	puts i
+# 	end 
+# end
+
+# fam_sorted = fam_ages.sort
+
+# puts fam_sorted.last
+
+# def heads_flipped (array, times)
+# 	array.each do |i| 
+# 		if i == "heads" 
+# 			times += 1
+# 		end 
+# 	end
+# 	return times
+# end
+
+# puts heads_flipped(coin_flips, 0)
+
+
+# artists.delete "enya"
+# puts artists
+
+cities["toronto"] = 50
+	puts cities
+
+
+
+
