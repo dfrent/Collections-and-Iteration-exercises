@@ -172,6 +172,78 @@ fam_friends = {
 # puts countries_island
 # puts countries_not_island
 
+# #Exercise7
+
+# expenses = [250, 7.95, 30.95, 16.50]
+# # expense_total = 0
+# # expenses.each do |expense|
+# #   expense_total += expense
+# # end
+# # puts expense_total
+# def expense_calculator (expense)
+#   expense_total = 0
+#   expense.each do |expense|
+#     expense_total += expense
+#   end
+#   puts expense_total
+# end
+
+# expense_calculator (expenses)
+
+# expenses2 = [206, 34.78, 154, 34.0, 26.98]
+# expense_calculator (expenses2)
+
+
+# expenses = [250, 7.95, 30.95, 16.50]
+# 							# expense_total = 0
+# 							# expenses.each do |expense|
+# 							#   expense_total += expense
+# 							# end
+# 							# puts expense_total
+# def expense_calculator (expense)
+#   sum_total = 0
+#   expense.each do |expense|
+#     expense_total += expense
+#   end
+#   puts sum_total
+# end
+
+# expense_calculator (expenses)
+
+# expenses2 = [206, 34.78, 154, 34.0, 26.98]
+# expense_calculator (expenses2)
+
+
+
+#Exercise 9
+
+# grocery_list = ["bacon", "corn", "salmon", "broccoli", "steak", "pasta",]
+# def grocery_output (grocery_list)
+#   grocery_list.each do |item|
+#     puts "* #{item}"
+#   end
+# end
+
+# grocery_output (grocery_list)
+
+# grocery_list_update = grocery_list << "rice"
+# grocery_output (grocery_list_update)
+# puts grocery_list_update.length
+
+# if grocery_list_update.include? "bananas"
+#   puts "You need to pick up bananas"
+# else
+#   puts "You don't need to pick up bananas today"
+# end
+
+# puts grocery_list_update[1]
+
+# puts grocery_list_update.sort
+
+# grocery_expence_update.delete("salmon")
+# # print grocery_list_update
+
+
 
 
 
