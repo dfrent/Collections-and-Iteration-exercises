@@ -40,6 +40,8 @@ fam_friends = {
 
 # puts " a great movie #{movies[:year]} "
 
+
+
 # exercise2 
 
 # puts fav_colours.last
@@ -56,6 +58,8 @@ fam_friends = {
 # 	puts "I think #{i} is dope."	
 # end
    
+
+
 # exercise3
 
 # artists.each do |i|
@@ -73,17 +77,17 @@ fam_friends = {
 # puts fam_ages.sort!.reverse
 
 
+
+# exercise 4
+
 # movies["beauty and the beast"] = [1991, 2017]
 # puts movies
 
-# exercise4
 # fam_ages.each do |i|
 # 	if i <= 30 
 # 		puts i
 # 	end 
 # end
-
-
 
 # fam_ages.each do |i|
 #     if i >= 33
@@ -110,8 +114,78 @@ fam_friends = {
 # artists.delete "enya"
 # puts artists
 
-cities["toronto"] = 50
-	puts cities
+# cities["toronto"] = 50
+# 	puts cities
+
+
+
+# exercise 5
+
+# puts cities.values.sum
+
+# fam_ages.select do |name, age|
+#   if (age < 25)
+#     puts "#{name} is young"
+#   elsif (age > 25)
+#     puts "#{name} is old"
+#   end
+#   end
+
+# 
+# puts fav_colours[-2..-1]
+
+# fam_ages.each {|age| puts "#{age+1}"}
+# puts fav_colours << ["gold", "crimson"]
+
+
+
+
+#Exercise6
+
+# movies = {1991 => ["The Matrix", "Star Wars: Episode 1", "The Mummy"],
+#   2009 => ["Avatar", "Star Trek", "District 9"],
+#   2019 => ["How to Train Your Dragon 3", "Toy Story 4", "Star Wars: Episode:9"]}
+
+#  phone_buttons = [[0, "*", "#"],
+# [1, 2, 3], 
+#  [4, 5, 6], 
+#  [7, 8, 9]]
+# phone_buttons.each do |i|
+# 	puts "#{i}\n"
+# end
+
+# countries = [{:Canada =>["America", "Not an Island"]},
+#  {:korea => ["Asia", "Not an Island"]},
+#  {:jamaica => ["Carribean", "Island"]}
+# print countries
+# countries_island =[]
+# countries_not_island = []
+# countries.each do |country|
+#   country.each do |name, info|
+#     if info.last == "Island"
+#       countries_island << country
+#     elsif info.last == "Not an Island"
+#       countries_not_island << country
+#     end
+#   end
+# end
+# puts countries_island
+# puts countries_not_island
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
